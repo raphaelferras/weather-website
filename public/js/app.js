@@ -1,5 +1,3 @@
-console.log('A client script was loaded')
-
 const weatherform = document.querySelector('form')
 const search = document.querySelector('input')
 const msg1 = document.querySelector('#message1')
