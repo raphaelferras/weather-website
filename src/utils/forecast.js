@@ -11,7 +11,7 @@ const forecast = (lat, long, callback) => {
         } else {
             const c = body.current
             const data = {
-                description: c.weather_descriptions[0],
+                description: c.weather_descriptions[0] + 'humidy: ' + c.humidity,
                 temperature: c.temperature,
                 feelslike: c.feelslike,
             }
